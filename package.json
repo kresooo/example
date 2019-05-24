@@ -1,0 +1,27 @@
+{
+  "name": "github-manager",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://kresooo.github.io/example",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "gh-pages": "^2.0.1",
+    "jshint": "^2.9.6",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.5",
+    "redux": "^4.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "redux-immutable-state-invariant": "^2.1.0"
+  }
+}
