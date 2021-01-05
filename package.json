@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://kresooo.github.io/example",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "gh-pages": "^2.0.1",
     "jshint": "^2.9.6",
     "react": "^16.5.1",
